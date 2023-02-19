@@ -1,6 +1,5 @@
 {
   "editor.minimap.enabled": false,
-  "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
   "[markdown]": {
@@ -8,7 +7,15 @@
         "comments": "on",
         "strings": "on",
         "other": "on"
-    }
+    },
+    "editor.rulers": [
+        {
+          "column": 80,
+          "color": "#c792ea"
+        }
+      ],
+      "editor.wordWrap": "wordWrapColumn",
+      "editor.wordWrapColumn": 80
   },
   "files.defaultLanguage": "markdown",
   "files.exclude": {
