@@ -1,6 +1,6 @@
 # Jack's Four Employees
 
-#Jack Welch's Four Employees, Startup Interpretation:
+Jack Welch's Four Employees, Startup Interpretation:
 
 ![alt text that works](https://s3.amazonaws.com/ma.notes.images/four_employees.jpg)
 
