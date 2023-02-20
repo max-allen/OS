@@ -1,8 +1,13 @@
 ---
 tags: management text
 ---
-# Text Notes: An Elegant Puzzle
-## Ch. 2: Organization Design
+# An Elegant Puzzle
+
+## Contents
+- [Organizations](#Organizations)
+- [Tools](#tools)
+- [Approaches](#approaches)
+- [Culture](#culture)
 
 - **Small teams (< 4) aren't teams**: An important property of teams is that they abstract the complexities of individuals that compose them.
 
@@ -21,6 +26,8 @@ tags: management text
 
 "Productively integrating large numbers of engineers is hard."
 
+## Organizations
+
 Concentrate growth by having teams alternate between periods of hiring and consolidation
 
 Cost of new hires:
@@ -33,11 +40,8 @@ Cost of new hires:
 
 "Hiring is slowing us down": At high enough rates, the marginal added value of hiring gets very low. Sometimes low means negative.
 
-## Ch. 4: Approaches
-&nbsp;
+## Approaches
 ### Philosophy of Management
-
-&nbsp;
 #### Foundational management principles:[^1]
 
 - **Golden Rule**: Treat others as you'd like to be treated).
@@ -46,7 +50,7 @@ Cost of new hires:
 [[finishing-projects]]).
 - **Lead from the front**: Assuming an active, hands on role. Willingness to take on IC tasks, incident management / on call rotations, etc. as necessary. Never ask anyone to do something you wouldn't.
 
-#### Principals forged from trial and error:
+#### Principles forged from trial and error:
 
 - **Management should be an ethical profession**: Recognize the huge impact your actions (or inaction) have on the people that work "for" you and assume responsibility for it.
   - **Compensation philosophy/practices**, how roles are pitched to candidates, promotions, growth opportunities, PTO requests, working hours.
@@ -65,9 +69,7 @@ Cost of new hires:
   - **The worst theory of management is to not have a management philosophy, but the second worst is one that doesn't change**: Things should be done with intention. It's okay to adopt practices of others, but never blindly. Review your practices regularly for correctness make adjustments as necessary instead of leaving on autopilot.
   - Common management challenges: interviewing, performance management, promotions, raises
 
-
 ### Ways EMs Get Stuck
-
 
 [^1]: These were principles of Larson's at the start of his management career.
 
