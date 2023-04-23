@@ -1,8 +1,10 @@
+# Building a Second Brain
+
 CODE: Capture, Organize, Distill, Express
 
-**Capture: Keep What Resonates**
+## Capture: Keep What Resonates
 
-**Organize: Save for Actionability**
+## Organize: Save for Actionability
 
 Organize for action, according to the active projects you're currently working
 on. Consider new information in terms of its utility – is this going to help me
@@ -11,7 +13,7 @@ move forward with one of my current projects?
 Few things are actionable and relevant at any given time, which creates a filter
 for everything else.
 
-**Distill: Find the Essence**
+## Distill: Find the Essence
 
 There's always a way to convey the core message in a sentence or two. Distilling
 notes down to their essence is powerful way to speed up the process of creating
@@ -25,7 +27,7 @@ Think of yourself as a giver of notes to your future self, not a note taker.
 Every time you take a note, ask yourself, "How can I make this as useful as
 possible for my future self?"
 
-**Express: Show Your Work**
+## Express: Show Your Work
 
 All previous steps are geared toward one purpose: sharing your ideas, story, and
 knowledge with others.
@@ -35,6 +37,8 @@ information, but never take the next step and apply it.
 
 It's easy to delay and postpone enriching experiences. We think we're not
 ready. We fear we're not prepared.
+
+### Information is Verified Through Use
 
 Information becomes knowledge–personal, embodied, verified–only when we put it
 to use.
