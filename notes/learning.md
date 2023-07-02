@@ -25,3 +25,9 @@ What we don't use will degrade with time.
 How do we take what we've learned and extract things from it to make it more generalizable? If we aren't able to generalize it, do we really understand how it works?
 
 Details are far less important than your ability to understand _how_ to do something. By any measure, a poor machine is more skilled at recall than we'll ever be. Orient your study around an ability that can be performed. Ruthlessly prioritize as you march toward cultivating it. It's imperative to discern what won't map toward your goal.
+
+Learn _how_ things work, instead of learning how to _use_ things. The more you
+understand how different applications and systems work, the more skilled you'll
+become at designing effective solutions to any particular problem. Need to make
+a payment system recurring? Can that be informed by the design of a recurring
+calendar system?
