@@ -1,5 +1,7 @@
 ---
-tags: programming-languages web browsers client-side
+layout: page
+title: Markdown
+permalink: /markdown/
 ---
 
 # Markdown

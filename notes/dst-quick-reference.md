@@ -1,3 +1,9 @@
+---
+layout: page
+title: Data Structures Quick Reference
+permalink: /dst-quick-reference/
+---
+
 # Data Structures Quick Reference
 
 Common data structures, use cases, standard operations and associated time complexities:

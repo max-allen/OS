@@ -1,3 +1,9 @@
+---
+layout: page
+title: Contiguously Allocated Data Structures
+permalink: /contiguously-allocated/
+---
+
 # Contiguously Allocated Data Structures
 
 - _Continously-allocated structures_ are composed of single slabs of memory.
