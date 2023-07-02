@@ -1,4 +1,4 @@
-# Contiguous vs Linked Data Structures
+# Contiguously Allocated Data Structures
 
 - _Continously-allocated structures_ are composed of single slabs of memory.
   - Examples: arrays, matrices, heaps, hash tables
