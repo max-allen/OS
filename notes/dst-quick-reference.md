@@ -8,7 +8,7 @@ permalink: /dst-quick-reference/
 
 Common data structures, use cases, standard operations and associated time complexities:
 
-### Arrays
+## Arrays
 
 The fundamental [[contiguously-allocated]] data structure. These data records
 are of fixed size. Consequently, each element can be located by its numeric
@@ -23,7 +23,7 @@ Stacks, Queues, and Graphs (Adjacency Lists).
 - Constant time access to elements provided the index is known (efficient random
   access).
 - Space efficient as it doesn't use pointers.
-- Contigous allocation allows for better memory locality and cache performance.
+- Contiguous allocation allows for better memory locality and cache performance.
 
 **Drawbacks**:
 - Less efficient, complex insertion in comparison to Linked Lists.
