@@ -6,6 +6,12 @@ permalink: /payment-systems/
 
 # Payment Systems
 
+
+##### Sections
+1. [Description](#description)
+2. [Components](#components)
+3. [Key Topics](#key-topics)
+
 ## Description
 
 A payment system can mean different things to different people. To some, it
@@ -81,6 +87,7 @@ commonly use the id of shopping carts right before checkout.
 Internal services can communicate **synchronously** or **asynchronously**:
 
 #### Synchronous Communication (HTTP)
+
 Synchronous communication via HTTP is the simpler design choice and may
 work well at sufficiently small scale. As scale increases, long request response
 cycles dependent on many services pose challenges:
@@ -91,6 +98,7 @@ cycles dependent on many services pose challenges:
 - Hard to scale in the event of traffic increase
 
 #### Asynchronous Communication (Message Queue)
+
 Asynchronous communication via a Message Queue allows for an event-driven
 strategy where payment events can be published as messages to the Queue, and
 subsequently consumed by multiple subscribing services. This is particularly
@@ -100,6 +108,14 @@ operations performed by supporting services like ledger, wallet, or analytics.
 This approach trades complexity for scalability and failure resistance.
 
 ###  Handling Payment Failures
+
+Payment failures can be handled with client retries as discussed in the section
+on [idempotency](#retry-strategies). Two Queues can be utilized: one for
+retryable failures (retry queue), and the other for canceled requests (dead
+letter queue). The payment service will route failures to each queue in
+accordance with the desired retry strategy.
+
+The Dead letter queue is useful for debugging problematic events.
 
 - Reliability / Fault Tolerance
 - Handling Payment Processing Delays
