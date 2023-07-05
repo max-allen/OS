@@ -19,6 +19,37 @@ necessary to get a clear picture of system responsibilities.
 A common thread among payment systems is **money movement** – the need to
 facilitate the transfer of funds between at least two parties.
 
+## Components
+
+### Payment Service
+
+Operative component. Processes user initiated or recurring payment events.
+Updates data stores and communicates with complementary services.
+
+May perform risk / compliance checks in conjunction with external service
+provider. Initiates payment execution through payment service provider (PSP).
+
+### Payment Service Provider (PSP)
+
+External service that moves money between accounts. Stripe and Square are
+industry examples.
+
+### Card Schemes
+
+Process credit card operations. Visa, Discover, MasterCard, etc. are examples.
+
+### Ledger
+
+Keeps record of all payment transactions. Important for bookkeeping and post
+payment analysis. Provides end-to-end traceability and ensures consistency
+throughout payment cycle. Likely implements [Double-entry accounting](https://en.wikipedia.org/wiki/Double-entry_bookkeeping).
+
+### Wallet
+
+Keeps merchant account balances. Useful for payment systems where payment is not
+immediately moved between accounts of the transacting parties. May or may not be
+present to the extent payment system leverages functionality of PSP.
+
 ### Idempotency
 
 Idempotent operations is a primary concern when designing payment systems. It's
