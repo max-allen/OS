@@ -50,6 +50,8 @@ Keeps merchant account balances. Useful for payment systems where payment is not
 immediately moved between accounts of the transacting parties. May or may not be
 present to the extent payment system leverages functionality of PSP.
 
+## Key Topics
+
 ### Idempotency
 
 Idempotent operations is a primary concern when designing payment systems. It's
@@ -75,8 +77,31 @@ used in request headers as an idempotency key (`<idempotency-key: key_value>`);
 this is recommended by Stripe and Paypal. Alternatively, e-commerce websites
 commonly use the id of shopping carts right before checkout.
 
+### Internal Service Communication
+Internal services can communicate **synchronously** or **asynchronously**:
+
+#### Synchronous Communication (HTTP)
+Synchronous communication via HTTP is the simpler design choice and may
+work well at sufficiently small scale. As scale increases, long request response
+cycles dependent on many services pose challenges:
+
+- Performance subject to any service in the chain
+- Poor failure isolation (if service fails, client wont receive response)
+- Tight coupling. Sender needs to know recipient
+- Hard to scale in the event of traffic increase
+
+#### Asynchronous Communication (Message Queue)
+Asynchronous communication via a Message Queue allows for an event-driven
+strategy where payment events can be published as messages to the Queue, and
+subsequently consumed by multiple subscribing services. This is particularly
+well suited for payment systems, as a payment event may need to trigger
+operations performed by supporting services like ledger, wallet, or analytics.
+
+This approach trades complexity for scalability and failure resistance.
+
+###  Handling Payment Failures
+
 - Reliability / Fault Tolerance
-- Handling Payment Failures
 - Handling Payment Processing Delays
 
 - Security
