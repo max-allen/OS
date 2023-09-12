@@ -20,3 +20,5 @@ dependencies. From the python 3 [glossary](https://docs.python.org/3/glossary.ht
   <!-- $HOME/.local/share/virtualenvs/dst-algorithms-OjA0cdcc/lib/python3.10/site-packages -->
 
   <!-- $HOME/.pyenv/versions/3.10.10/lib/python3.10/site-packages -->
+
+  <!-- https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment -->
