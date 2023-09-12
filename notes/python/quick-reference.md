@@ -7,7 +7,32 @@ permalink: /python/quick-reference
 # Python Quick Reference
 
 **Contents**
+- [Installation](#installation)
+- [Dependencies](#dependencies)
 - [Documentation](#documentation)
+
+## Installation
+
+Python can be installed via Homebrew. Instead of installing python directly,
+install python with [pyenv](https://github.com/pyenv/pyenv) so can you install
+multiple versions and comfortably switch between them as needed.
+
+## Dependencies
+
+[pip](https://pip.pypa.io/en/stable/) is the default package installer for
+Python. It installs packages from the [PyPI](https://pypi.org/), the Python
+Package Index. Packages published to the registry can be installed like so:
+
+```pip install <package name>```
+
+Without an active virtual environment, this will install the relevant binary to
+`$HOME/.pyenv/shims`.
+
+### App Specific Dependencies
+
+Working within the context of an application requiring specific versions of
+python and project dependencies requires activating a virtual environment.
+See [Python Dependency Management](./dependency-management).
 
 ## Documentation
 

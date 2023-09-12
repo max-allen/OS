@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python Depend. Management
+title: Python Dependency Management
 permalink: /python/dependency-management
 ---
 
