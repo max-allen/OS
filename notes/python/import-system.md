@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Python's Import System
-permalink: /import-system-python/
+permalink: /python/import-system
 ---
 
 # Python's Import System
