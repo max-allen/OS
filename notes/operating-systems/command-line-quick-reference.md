@@ -45,3 +45,29 @@ kill 12923
 - `now` should be formatted as a command, in other words no quotes
 (i.e.'now' or "now").
 - `shutdown` should be run as super user.
+
+### 🚧 TODO:
+See notes app for additional detail.
+
+- Commands
+  - Documentation
+  - Location
+
+- Files
+  - Adding / removing
+  - Moving
+  - Copying
+  - Reading contents
+
+- Processes
+  - Listing
+  - Terminating
+
+Files
+- Reading file contents
+
+Searching
+- Text printed to console
+
+Networking
+- IPs
