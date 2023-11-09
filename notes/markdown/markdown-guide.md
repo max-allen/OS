@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Markdown Guide
-permalink: /markdown-guide/
+permalink: /markdown/guide
 ---
 
 # Markdown

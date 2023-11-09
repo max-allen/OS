@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Markdown Quick Reference
-permalink: /markdown-reference/
+permalink: /markdown/reference/
 ---
 
 # Markdown Quick Reference

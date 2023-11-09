@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rails Quick Reference
-permalink: /rails/
+permalink: /ruby/rails-reference/
 ---
 
 # Rails Quick Reference

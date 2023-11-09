@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Django Quick Reference
-permalink: /python/django-quick-reference
+permalink: /python/django-reference
 ---
 
 # Django Quick Reference

@@ -1,14 +1,12 @@
 ---
 layout: page
 title: Command Line Quick Reference
-permalink: /command-line-quick-reference/
+permalink: /operating-systems/cli-quick-reference/
 ---
 
 # Command Line Quick Reference
 
-> This guide contains recipes for common tasks performed in the shell. Usage should coincide with active development.
-
-##### Sections
+**Contents**
 - [Shutdown/Rebooting](#shutdown-rebooting)
 
 ### Shutdown / Rebooting
