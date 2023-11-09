@@ -55,3 +55,8 @@ looking for an informal orientation, see the tutorial docs.
 
 - If you're looking for deep dive on how a component of the language works (e.g.
   the import system), see the language reference.
+
+### 🚧 TODO:
+
+- Environment Variables
+- Conventions
