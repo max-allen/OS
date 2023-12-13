@@ -23,14 +23,9 @@ the service.
 ### Types
 
 ### Examples
-
-#### Historically Significant
-
-#### Current
-
-<!-- TODO: Check script embed -->
-
-<!-- <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3570_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/0_h2","geo":"US","time":"today 5-y"},{"keyword":"/m/02qft91","geo":"US","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"date=today%205-y&geo=US&q=%2Fm%2F0_h2,%2Fm%2F02qft91&hl=en","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> -->
+<!-- TODO: add usage statistics image -->
+- [Apache HTTP Server](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
+- [Nginx](https://en.wikipedia.org/wiki/Nginx)
 
 ### Resources 📚
 
@@ -41,3 +36,5 @@ the service.
 - [proxy vs reverse proxy (stack overflow)](https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server/366212#366212)
   - Good descriptions of proxy types with simple, illustrative examples
     detailing use cases. Lists popular modern examples.
+
+- [web server usage statistics](https://w3techs.com/technologies/overview/web_server)
