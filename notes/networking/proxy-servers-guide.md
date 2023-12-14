@@ -8,9 +8,12 @@ permalink: /networking/proxy-servers/guide
 
 ## How to Use
 
-### When This Matters
+This is a conceptual guide for reinforcing mental models. Use it when you can't
+remember use cases, a proxy type, or how aspects of proxies work.
 
-Proxies should be relevant when it's time to deploy a service that needs to be
+### When To Use
+
+Proxies are important when it's time to deploy a service that needs to be
 reachable by a client communicating over the public internet. It's more
 simple (and less work) to make the service public, but the following use cases
 wouldn't be unachievable:
