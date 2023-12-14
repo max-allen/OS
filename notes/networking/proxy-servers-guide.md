@@ -22,6 +22,10 @@ the service.
 
 ### Types
 
+#### Reverse Proxy
+
+![Reverse Proxy example](https://github.com/max-allen/OS/blob/OS-2-proxy-server-guide/notes/networking/proxy-example.svg)
+
 ### Examples
 <!-- TODO: add usage statistics image -->
 - [Apache HTTP Server](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
