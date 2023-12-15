@@ -1,19 +1,20 @@
 ---
 layout: page
-title: Proxy Servers Guide
-permalink: /networking/proxy-servers/guide
+title: Web Servers Guide
+permalink: /networking/web-servers/guide
 ---
 
-# Proxy Servers
+# Web Servers
 
 ## How to Use
 
-This is a conceptual guide for reinforcing mental models. Use it when you can't
-remember use cases, a proxy type, or how aspects of proxies work.
+Use this guide to reinforce mental models, compare to another system component
+like an application server, or to reference use cases. Refer to a tool specific
+quick reference for help with using a specific tool.
 
-### When To Use
+### When You'll Use
 
-Proxies are important when it's time to deploy a service that needs to be
+Web servers are important when it's time to deploy a service that needs to be
 reachable by a client communicating over the public internet. It's more
 simple (and less work) to make the service public, but the following use cases
 wouldn't be unachievable:
@@ -23,12 +24,6 @@ wouldn't be unachievable:
 - **Load Balancing**: Distributing request traffic across separate instances of
 the service.
 
-### Types
-
-#### Reverse Proxy
-
-![Reverse Proxy example](https://github.com/max-allen/OS/blob/OS-2-proxy-server-guide/notes/networking/proxy-example.svg)
-
 ### Examples
 <!-- TODO: add usage statistics image -->
 - [Apache HTTP Server](https://en.wikipedia.org/wiki/Apache_HTTP_Server)
@@ -36,9 +31,7 @@ the service.
 
 ### Resources 📚
 
-- [proxy server (wiki)](https://en.wikipedia.org/wiki/Proxy_server)
-
-  - Short, high level overview. Start here.
+- [web server (wiki)](https://en.wikipedia.org/wiki/Web_server)
 
 - [proxy vs reverse proxy (stack overflow)](https://stackoverflow.com/questions/224664/whats-the-difference-between-a-proxy-server-and-a-reverse-proxy-server/366212#366212)
   - Good descriptions of proxy types with simple, illustrative examples
