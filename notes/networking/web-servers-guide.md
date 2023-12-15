@@ -6,6 +6,10 @@ permalink: /networking/web-servers/guide
 
 # Web Servers
 
+Web servers handle HTTP requests. As the name implies, they can be used to
+serve content, but they have a variety of other use cases such as load
+balancing, caching, and SSL termination.
+
 ## How to Use
 
 Use this guide to reinforce mental models, compare to another system component
@@ -14,12 +18,16 @@ quick reference for help with using a specific tool.
 
 ### When You'll Use
 
-Web servers are important when it's time to deploy a service that needs to be
-reachable by a client communicating over the public internet. It's more
-simple (and less work) to make the service public, but the following use cases
-wouldn't be unachievable:
+- **Publicly Accessible Resources (Deploying):** Web servers are most relevant
+  when it's time to deploy a service that needs to be reachable by a client
+  communicating over the public internet.
 
-- **Secure Access**: Limiting which clients have access to the service's resources.
+### Use Cases
+
+- **Serving Content**: Serving content is the operative use case of web servers
+  traditionally. Content may be static (e.g HTML/images stored on a host) or dynamic (e.g. JSON response from a web application framework).
+
+- **Restricting Access**: Limiting which clients have access to the service's resources.
 
 - **Load Balancing**: Distributing request traffic across separate instances of
 the service.
