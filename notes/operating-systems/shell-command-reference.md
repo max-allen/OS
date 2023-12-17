@@ -29,7 +29,7 @@ permalink: /operating-systems/shell-command-reference/
 <!-- tocstop -->
 
 ## Documentation
-```sh
+```bash
 # retrieve manual
 $ man brew
 
@@ -45,9 +45,29 @@ $ brew
 
 ## Files
 
+### List
+
+```bash
+# lists files at path ~/foo
+$ ls ~/foo
+
+# lists files at path ~/foo, sorted descending
+$ ls -t ~/foo
+
+# lists files at path ~/foo, descending sort reversed (ascending)
+$ ls -tr ~/foo
+
+# lists files at path ~/foo in long format
+
+# file mode, number of links, owner name, group name, bytes in file, month, last modified (lm) month, lm hour, lm HH:ss, name
+# drwxr-xr-x  15 maxallen  staff     480 Nov 10 20:18 maxallen.io
+$ ls -l ~/foo
+
+```
+
 ### Add
 
-```sh
+```bash
 # adds dir project-bar
 $ mkdir project-bar
 
@@ -60,7 +80,7 @@ $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 ```
 
 ### Delete
-```sh
+```bash
 # removes text file foo
 $ rm foo.txt
 
@@ -78,24 +98,24 @@ $ rm -rf node_modules/ *.json
 ```
 
 ### Read
-```sh
+```bash
 # reads .ssh/known_hosts
 $ cat ~/.ssh/known_hosts
 ```
 
 ### Edit
-```sh
+```bash
 # opens file with vim for editing
 $ vim project-bar/README.md
 ```
 
 ### Rename
-```sh
+```bash
 # renames bar to foo
 $ mv /bar /foo
 ```
 ### Move
-```sh
+```bash
 # moves font file from Downloads to Fonts dir
 $ mv ~/Downloads/dank-mono.otf ~/Library/Fonts/dank-mono.otf
 
@@ -104,7 +124,7 @@ $ mv bar/* .
 ```
 
 ### Copy
-```sh
+```bash
 # copies text files to /tmp
 $ cp *.txt /tmp
 
@@ -113,7 +133,7 @@ $ cp -R junk /tmp
 ```
 
 ### Locate
-```sh
+```bash
 # locates file in PATH
 $ which pylint
 
@@ -132,7 +152,7 @@ $ find / -name ".rb"
 > don't know which will be executed.
 
 ### Type
-```sh
+```bash
 # checks file for type, is dir
 $ file thermald.bundle thermald.bundle
 
@@ -144,6 +164,11 @@ $ file $PYENV_ROOT/shims/python-config
 # > shims/python-config: Bourne-Again shell script text executable, ASCII text
 ```
 
+### Extract
+```bash
+$ unzip archive.zip
+```
+
 > I've found this useful when working in file systems that commingle
 > binaries with directories or files with uncommon extensions. Text files
 > containing secrets or unstructured config files are also examples.
@@ -151,7 +176,7 @@ $ file $PYENV_ROOT/shims/python-config
 ## System
 ### Shutdown / Reboot
 
-```sh
+```bash
 # shutdown and reboot immediately
 $ sudo shutdown -r now
 
@@ -164,7 +189,7 @@ $ sudo shutdown -r 2311211325
 ```
 > `shutdown` will return a pid. terminate the process to abort the scheduled shutdown.
 
-```sh
+```bash
 # shutdown output
 
 # > Shutdown at Tue Nov 21 13:25:00 2023.
@@ -177,13 +202,13 @@ $ kill 12923
 TODO:
 
 ## Networking
-```sh
+```bash
 # retrieve ip address
 # ipconfig -a, ipconfig
 ```
 
 ## Processes
-```sh
+```bash
 # retrieve processes for all users including processes without terminals
 $ ps aux
 ```
