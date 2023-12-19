@@ -2,6 +2,7 @@
 layout: page
 title: Markdown Guide
 permalink: /markdown/guide
+published: false
 ---
 
 # Markdown

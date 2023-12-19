@@ -2,6 +2,7 @@
 layout: page
 title: Python Memory Management
 permalink: /python/memory-management
+published: false
 ---
 
 ## Memory Management

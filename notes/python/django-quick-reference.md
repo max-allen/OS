@@ -2,6 +2,7 @@
 layout: page
 title: Django Quick Reference
 permalink: /python/django-reference
+published: false
 ---
 
 # Django Quick Reference

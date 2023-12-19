@@ -2,6 +2,7 @@
 layout: page
 title: Python Guide
 permalink: /python/guide
+published: false
 ---
 
 # Python Quick Reference

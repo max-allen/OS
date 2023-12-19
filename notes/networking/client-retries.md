@@ -2,6 +2,7 @@
 layout: page
 title: Client Retry Strategies
 permalink: /networking/client-retries/
+published: false
 ---
 
 # Client Retry Strategies
