@@ -2,6 +2,7 @@
 layout: page
 title: Contiguously Allocated Data Structures
 permalink: /contiguously-allocated/
+published: false
 ---
 
 # Contiguously Allocated Data Structures

@@ -2,6 +2,7 @@
 layout: page
 title: Rails Quick Reference
 permalink: /ruby/rails-reference/
+published: false
 ---
 
 # Rails Quick Reference
