@@ -120,7 +120,7 @@ $ mv /bar /foo
 ### Move
 ```bash
 # moves font file from Downloads to Fonts dir
-$ mv ~/Downloads/dank-mono.otf ~/Library/Fonts/dank-mono.otf
+$ mv ~/Downloads/dank-mono.otf ~/Library/Fonts/
 
 # moves up a level
 $ mv bar/* .
@@ -147,9 +147,8 @@ $ find . -type d -name foo
 $ find . -type f -name bar
 
 # searches filesystem for files with ruby extension .rb
-$ sudo find / -regex ".*\rb"
-$ find / -name ".rb"
-
+$ sudo find / -regex ".*\rb" # pattern matches entire path
+$ find / -name ".rb" # pattern matches last component of pathname
 ```
 > `which` can be useful when you have multiple versions of an executable and
 > don't know which will be executed.
