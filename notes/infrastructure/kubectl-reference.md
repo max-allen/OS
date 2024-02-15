@@ -64,6 +64,12 @@ $  kubectl edit cm fluent-bit -o > fb-cm.yaml
 $  kubectl apply -f fb-cm.yaml # -f specifies filename
 ```
 
+### Deleting
+```bash
+# deletes pods with in logging namespace with label fluent-bit
+$ kubectl delete po -n logging -l app.kubernetes.io/name=fluent-bit
+```
+
 ## Pods
 
 ### Shell Access
