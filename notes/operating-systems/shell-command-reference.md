@@ -74,10 +74,13 @@ $ mkdir project-bar
 # adds file to dir project-bar
 $ touch project-bar/__init__.py
 
-# adds .bashrc if it does not exist via redirection
-# .bashrc added with result of echo command
+# appends result of echo to .bashrc via [redirection](https://www.gnu.org/software/bash/manual/html_node/Redirections.html) if file exists, otherwise creates .bashrc with result.
 $ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+
+# overwrites instead of appending if file exists.
+$ echo 'export PYENV_ROOT="$HOME/.pyenv"' > ~/.bashrc
 ```
+> You'll generally want to use the >> operator to redirect as > will overwrite files.
 
 ### Delete
 ```bash
@@ -117,7 +120,7 @@ $ mv /bar /foo
 ### Move
 ```bash
 # moves font file from Downloads to Fonts dir
-$ mv ~/Downloads/dank-mono.otf ~/Library/Fonts/dank-mono.otf
+$ mv ~/Downloads/dank-mono.otf ~/Library/Fonts/
 
 # moves up a level
 $ mv bar/* .
@@ -144,9 +147,8 @@ $ find . -type d -name foo
 $ find . -type f -name bar
 
 # searches filesystem for files with ruby extension .rb
-$ sudo find / -regex ".*\rb"
-$ find / -name ".rb"
-
+$ sudo find / -regex ".*\rb" # pattern matches entire path
+$ find / -name ".rb" # pattern matches last component of pathname
 ```
 > `which` can be useful when you have multiple versions of an executable and
 > don't know which will be executed.
@@ -214,3 +216,7 @@ $ ps aux
 ```
 
 ## Shell
+
+### Resources 📚
+
+- [Bash Reference Manual](https://www.gnu.org/software/bash/manual/html_node/index.html#SEC_Contents)
