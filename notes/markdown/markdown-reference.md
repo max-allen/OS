@@ -3,10 +3,12 @@ layout: page
 title: Markdown Quick Reference
 permalink: /markdown/reference/
 ---
-
-# Markdown Quick Reference
+# Markdown Reference
 
 **Contents**
+
+<!-- toc -->
+
 - [Headings](#headings)
 - [Emphasis](#emphasis)
 - [Lists](#lists)
@@ -15,6 +17,9 @@ permalink: /markdown/reference/
 - [Code](#code)
 - [Blockquotes](#blockquotes)
 - [Horizontal Rule](#horizontal-rule)
+- [Tables](#tables)
+
+<!-- tocstop -->
 
 ### Headings
 
@@ -173,7 +178,5 @@ Some content | Other content
 
 ### References 📚
 
+[markdown-guide](https://github.com/mattcone/markdown-guide/tree/3c54bd1ecf97e1a3c846e6a396b5c2f886ac00a5)
 
-<!-- TODO:
-- Footnotes
-- Table of Contents -->
