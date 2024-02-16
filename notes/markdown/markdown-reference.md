@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Markdown Quick Reference
+title: Markdown Reference
 permalink: /markdown/reference/
 ---
 # Markdown Reference
@@ -174,6 +174,13 @@ codeFences.withLanguage()
 Column 1 Heading | Column 2 Heading
 --- | ---
 Some content | Other content
+```
+
+### Footnotes
+
+```
+Text with a footnote.[^1]
+[^1]: And that's the footnote.
 ```
 
 ### References 📚
