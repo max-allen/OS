@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Markdown Quick Reference
+title: Markdown Reference
 permalink: /markdown/reference/
 ---
 
-# Markdown Quick Reference
+# Markdown Reference
 
 **Contents**
 - [Headings](#headings)
@@ -172,8 +172,3 @@ Some content | Other content
 ```
 
 ### References 📚
-
-
-<!-- TODO:
-- Footnotes
-- Table of Contents -->
