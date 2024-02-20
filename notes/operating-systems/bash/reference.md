@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shell Command Reference
-permalink: /operating-systems/shell-command-reference/
+permalink: /operating-systems/bash/reference
 ---
 # Shell Command Reference
 

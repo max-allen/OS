@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Filesystem Hierarchy Reference
-permalink: operating-systems/filesystem-hierarchy/reference/
+permalink: operating-systems/linux/filesystem-reference
 ---
 # Filesystem Hierarchy Reference
 
