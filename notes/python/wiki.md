@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Python Guide
-permalink: /python/guide
+title: Python Wiki
+permalink: /python/wiki
 published: false
 ---
 
-# Python Quick Reference
+# Python Wiki
 
 **Contents**
 - [Installation](#installation)
